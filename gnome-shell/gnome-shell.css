@@ -1386,7 +1386,6 @@ StScrollBar StButton#hhandle:active {
 
 Gjs_AggregateMenu.panel-button,
 Gjs_ArcMenu_ApplicationsButton.panel-button {
-  border: 1px solid red;
   background-color: rgba(222, 222, 222, 0.15);
 }
 
@@ -1463,7 +1462,6 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 .world-clocks-button:active,
 .weather-button:active,
 .events-section-title:active {
-  border: 1px solid red;
   color: rgba(255, 255, 255, 0.9);
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -1985,7 +1983,6 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 }
 
 .window-picker {
-  border: 1px solid red;
   -horizontal-spacing: 16px;
   -vertical-spacing: 16px;
   /* padding: 0 16px 32px; */
@@ -2305,7 +2302,6 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
   border-radius: 12px;
   background-image: none;
   background-color: rgba(255, 255, 255, 0.3);
-  border: 1px solid red;
 }
 
 .page-indicator:hover .page-indicator-icon {
@@ -3481,89 +3477,6 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 #dashtodockContainer .show-apps .overview-icon {
   padding: 9px;
   background-size: contain;
-}
-
-/* Simple Dock */
-#dash:desktop {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.openweather-button,
-.openweather-button-action,
-.openweather-menu-button-container,
-.openweather-button-box {
-  border: 1px solid transparent;
-}
-
-.openweather-provider {
-  padding: 0 16px;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: transparent;
-  border-color: transparent;
-  box-shadow: 0 0 transparent;
-  text-shadow: none;
-  icon-shadow: none;
-}
-
-.openweather-provider:hover {
-  color: rgba(255, 255, 255, 0.9);
-  background-color: rgba(255, 255, 255, 0.06);
-  border-color: transparent;
-  box-shadow: 0 0 transparent;
-  text-shadow: none;
-  icon-shadow: none;
-}
-
-.openweather-provider:focus {
-  color: rgba(255, 255, 255, 0.9);
-  text-shadow: none;
-  icon-shadow: none;
-  box-shadow: 0 0 transparent;
-}
-
-.openweather-provider:active {
-  color: rgba(255, 255, 255, 0.9);
-  background-color: rgba(255, 255, 255, 0.1);
-  border-color: transparent;
-  box-shadow: 0 0 transparent;
-  text-shadow: none;
-  icon-shadow: none;
-}
-
-.openweather-current-icon,
-.openweather-current-summary,
-.openweather-current-summarybox {
-  background: none;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.openweather-current-databox-values {
-  background: none;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.openweather-current-databox-captions {
-  background: none;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.openweather-forecast-icon,
-.openweather-forecast-summary {
-  background: none;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.openweather-forecast-day,
-.openweather-forecast-temperature {
-  background: none;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.openweather-sunrise-icon,
-.openweather-sunset-icon,
-.openweather-build-icon {
-  color: rgba(255, 255, 255, 0.7);
 }
 
 /* GPaste */
