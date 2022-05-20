@@ -2348,7 +2348,7 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 
 /* App Folders */
 .app-folder .overview-icon {
-  background-color: rgba(255, 255, 255, 0.13);
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 16px;
   border-radius: 100px;
 }
@@ -2363,7 +2363,6 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 .app-folder-dialog .folder-name-container {
   padding: 24px 36px 0;
   spacing: 12px;
-  /* FIXME: this is to keep the label in sync with the entry */
 }
 
 .app-folder-dialog .folder-name-container .folder-name-label,
@@ -2408,8 +2407,6 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 
 .app-folder-dialog-container {
   padding: 12px;
-  width: 800px;
-  height: 600px;
 }
 
 .app-folder-icon {
@@ -2418,18 +2415,8 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
   spacing-columns: 4px;
 }
 
-.workspace-thumbnails {
-  visible-width: 32px;
-  spacing: 12px;
-  padding: 16px;
-  border-radius: 12px;
-  margin: 6px;
-}
-
 .workspace-thumbnail-indicator {
-  border: 0 solid #4586d8;
-  border-width: 2px;
-  padding: 6px;
+  border: 2px solid #ff5252;
   border-radius: 2px;
 }
 
@@ -2440,9 +2427,7 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 }
 
 .workspace-thumbnails {
-  color: rgba(255, 255, 255, 0.85);
-  background-color: rgba(255, 255, 255, 0.13);
-  border: none;
+  background-color: none;
 }
 
 .search-statustext,
