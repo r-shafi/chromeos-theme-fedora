@@ -142,20 +142,12 @@ stage {
   font-weight: 500;
 }
 
-.lightbox {
-  background-color: black;
-}
-
-.flashspot {
-  background-color: white;
-}
-
 .modal-dialog {
-  border-radius: 24px;
-  color: rgba(255, 255, 255, 0.9);
-  background-color: rgba(0, 0, 0, 0.9);
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 transparent;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: none;
 }
 
 .modal-dialog .run-dialog-entry {
@@ -176,7 +168,7 @@ stage {
 .modal-dialog .run-dialog-label {
   font-size: 1em;
   font-weight: normal;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.75);
   padding-bottom: 0.4em;
 }
 
@@ -184,69 +176,47 @@ stage {
   min-height: 40px;
   padding: 0 16px;
   border: none;
+  border-radius: 5px;
   margin-bottom: 6px;
   font-size: 9.75pt;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(255, 255, 255, 0.1);
-  border-color: transparent;
   box-shadow: none;
   text-shadow: none;
   icon-shadow: none;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.7);
 }
 
-.modal-dialog-linked-button:hover {
-  color: rgba(255, 255, 255, 0.9);
-  background-color: rgba(255, 255, 255, 0.15);
-  border-color: transparent;
-  box-shadow: none;
-  text-shadow: none;
-  icon-shadow: none;
-}
-
-.modal-dialog-linked-button:active {
-  color: #ef233c;
-  background-color: white;
-  border-color: transparent;
-  box-shadow: none;
-  text-shadow: none;
-  icon-shadow: none;
-}
-
-.modal-dialog-linked-button:insensitive {
-  color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(255, 255, 255, 0.1);
-  border-color: transparent;
-  box-shadow: none;
-  text-shadow: none;
-  icon-shadow: none;
-}
-
+.modal-dialog-linked-button:hover,
 .modal-dialog-linked-button:focus {
-  color: #ef233c;
+  box-shadow: none;
   text-shadow: none;
   icon-shadow: none;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: rgba(0, 0, 0, 0.8);
 }
 
-.modal-dialog-linked-button:focus:active {
-  color: #ef233c;
+.modal-dialog-linked-button:focus:active,
+.modal-dialog-linked-button:active {
+  box-shadow: none;
+  text-shadow: none;
+  icon-shadow: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
 }
 
 .modal-dialog-linked-button:first-child {
   margin-left: 6px;
-  border-radius: 100px 0px 0px 100px;
+  margin-right: 3px;
 }
 
 .modal-dialog-linked-button:last-child {
   margin-right: 6px;
   border-right-width: 0px;
-  border-radius: 0px 100px 100px 0;
 }
 
 .modal-dialog-linked-button:first-child:last-child {
   margin: 0 6px 6px 6px;
   border-right-width: 0px;
-  border-radius: 100px;
 }
 
 .show-processes-dialog-subject,
@@ -282,103 +252,29 @@ stage {
 }
 
 /* End Session Dialog */
-.end-session-dialog {
-  spacing: 42px;
-  border: 2px solid rgba(255, 255, 255, 0.12);
-}
 
 .end-session-dialog .modal-dialog-linked-button:last-child {
   color: white;
-  background-color: #ff5252;
+  background-color: #ef233c;
 }
 
 .end-session-dialog .modal-dialog-linked-button:last-child:hover {
-  color: white;
-  background-color: #ff8080;
+  color: #ef233c;
+  background-color: rgba(239, 35, 60, 0.2);
 }
 
 .end-session-dialog .modal-dialog-linked-button:last-child:active {
-  color: white;
-  background-color: #ff3939;
-}
-
-.end-session-dialog-list {
-  padding-top: 20px;
+  color: #ef233c;
+  background-color: rgba(239, 35, 60, 0.4);
 }
 
 .end-session-dialog-layout {
   padding-left: 17px;
 }
 
-.end-session-dialog-layout:rtl {
-  padding-right: 17px;
-}
-
 .end-session-dialog-description {
   width: 28em;
   padding-bottom: 10px;
-}
-
-.end-session-dialog-description:rtl {
-  text-align: right;
-}
-
-.end-session-dialog-warning {
-  width: 28em;
-  color: #ff6d00;
-  padding-top: 6px;
-}
-
-.end-session-dialog-warning:rtl {
-  text-align: right;
-}
-
-.end-session-dialog-logout-icon {
-  border-radius: 5px;
-  width: 48px;
-  height: 48px;
-  background-size: contain;
-}
-
-.end-session-dialog-shutdown-icon {
-  color: rgba(255, 255, 255, 0.5);
-  width: 48px;
-  height: 48px;
-}
-
-.end-session-dialog-inhibitor-layout {
-  spacing: 16px;
-  max-height: 200px;
-  padding-right: 65px;
-  padding-left: 65px;
-}
-
-.end-session-dialog-session-list,
-.end-session-dialog-app-list {
-  spacing: 1em;
-}
-
-.end-session-dialog-list-header {
-  font-weight: bold;
-}
-
-.end-session-dialog-list-header:rtl {
-  text-align: right;
-}
-
-.end-session-dialog-app-list-item,
-.end-session-dialog-session-list-item {
-  spacing: 1em;
-}
-
-.end-session-dialog-app-list-item-name,
-.end-session-dialog-session-list-item-name {
-  font-weight: bold;
-}
-
-.end-session-dialog-app-list-item-description {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 1em;
 }
 
 /* ShellMountOperation Dialogs */
