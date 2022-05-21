@@ -144,9 +144,9 @@ stage {
 
 .modal-dialog {
   border-radius: 10px;
-  color: rgba(0, 0, 0, 0.85);
-  background-color: rgba(255, 255, 255, 0.95);
-  border: 2px solid rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(15, 15, 15, 0.95);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: none;
 }
 
@@ -182,8 +182,8 @@ stage {
   box-shadow: none;
   text-shadow: none;
   icon-shadow: none;
-  background-color: rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .modal-dialog-linked-button:hover,
@@ -191,8 +191,8 @@ stage {
   box-shadow: none;
   text-shadow: none;
   icon-shadow: none;
-  background-color: rgba(0, 0, 0, 0.15);
-  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .modal-dialog-linked-button:focus:active,
@@ -200,8 +200,8 @@ stage {
   box-shadow: none;
   text-shadow: none;
   icon-shadow: none;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: black;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgb(255, 255, 255);
 }
 
 .modal-dialog-linked-button:first-child {
