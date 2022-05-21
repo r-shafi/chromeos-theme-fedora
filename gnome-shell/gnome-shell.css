@@ -122,18 +122,18 @@ stage {
 /* links */
 .shell-link {
   border-radius: 12px;
-  color: #4586d8;
+  color: #ef233c;
   background-color: transparent;
 }
 
 .shell-link:hover {
-  color: #4586d8;
-  background-color: rgba(69, 134, 216, 0.15);
+  color: #ef233c;
+  background-color: rgba(239, 35, 59, 0.2);
 }
 
 .shell-link:active {
-  color: #4586d8;
-  background-color: rgba(69, 134, 216, 0.3);
+  color: #ef233c;
+  background-color: rgba(239, 35, 59, 0.3);
 }
 
 /* Modal Dialogs */
