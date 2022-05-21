@@ -83,52 +83,6 @@ stage {
   -barlevel-border-width: 0;
 }
 
-/* Check Boxes */
-.check-box * {
-  min-height: 16px;
-  padding: 8px 0;
-}
-
-.check-box StBoxLayout {
-  spacing: 8px;
-}
-
-.check-box StBin {
-  width: 24px;
-  height: 24px;
-  padding: 4px;
-  border-radius: 100px;
-  background-image: url('assets/checkbox-off.svg');
-}
-
-.check-box:focus StBin {
-  background-image: url('assets/checkbox-off.svg');
-}
-
-.check-box:hover StBin {
-  background-color: rgba(255, 255, 255, 0.06);
-}
-
-.check-box:active StBin {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.check-box:checked StBin {
-  background-image: url('assets/checkbox.svg');
-}
-
-.check-box:focus:checked StBin {
-  background-image: url('assets/checkbox.svg');
-}
-
-.check-box:hover:checked StBin {
-  background-color: rgba(69, 134, 216, 0.15);
-}
-
-.check-box:active:checked StBin {
-  background-color: rgba(69, 134, 216, 0.3);
-}
-
 /* Switches */
 .toggle-switch {
   width: 40px;
