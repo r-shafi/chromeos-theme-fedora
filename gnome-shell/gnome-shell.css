@@ -877,24 +877,6 @@ stage {
   padding: 12px;
 }
 
-/* Tiled window previews */
-.tile-preview {
-  background-color: rgba(69, 134, 216, 0.3);
-  border: 1px solid #4586d8;
-}
-
-.tile-preview-left.on-primary {
-  border-radius: 0 0 0 0;
-}
-
-.tile-preview-right.on-primary {
-  border-radius: 0 0 0 0;
-}
-
-.tile-preview-left.tile-preview-right.on-primary {
-  border-radius: 0 0 0 0;
-}
-
 /* TOP BAR */
 #panel {
   background-color: rgba(0, 0, 0, 0.65);
