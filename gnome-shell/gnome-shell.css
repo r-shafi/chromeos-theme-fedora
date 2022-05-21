@@ -153,13 +153,9 @@ stage {
 .modal-dialog {
   border-radius: 24px;
   color: rgba(255, 255, 255, 0.9);
-  background-color: #202020;
-  border: 2px solid rgba(255, 255, 255, 0.12);
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 transparent;
-}
-
-.modal-dialog .modal-dialog-content-box {
-  padding: 24px;
 }
 
 .modal-dialog .run-dialog-entry {
@@ -209,8 +205,8 @@ stage {
 }
 
 .modal-dialog-linked-button:active {
-  color: white;
-  background-color: #4586d8;
+  color: #ef233c;
+  background-color: white;
   border-color: transparent;
   box-shadow: none;
   text-shadow: none;
@@ -227,13 +223,13 @@ stage {
 }
 
 .modal-dialog-linked-button:focus {
-  color: #4586d8;
+  color: #ef233c;
   text-shadow: none;
   icon-shadow: none;
 }
 
 .modal-dialog-linked-button:focus:active {
-  color: white;
+  color: #ef233c;
 }
 
 .modal-dialog-linked-button:first-child {
