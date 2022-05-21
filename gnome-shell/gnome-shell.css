@@ -911,10 +911,6 @@ stage {
   -panel-corner-border-color: transparent;
 }
 
-/* #panel .panel-corner StLabel {
-  padding: 0 4px;
-} */
-
 #panel .panel-button {
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: #fff;
@@ -1228,38 +1224,26 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 }
 
 .calendar-nonwork-day {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(239, 35, 59, 0.7);
 }
 
-.calendar-today {
-  font-weight: bold !important;
-  color: white;
-  background-color: #4586d8;
-  border: none;
-}
-
+.calendar-today,
 .calendar-today:hover,
-.calendar-today:focus {
-  background-color: #528edb;
-  color: white;
-}
-
+.calendar-today:focus,
 .calendar-today:active,
-.calendar-today:selected {
-  background-color: #4586d8;
-  color: white;
-}
-
+.calendar-today:selected,
 .calendar-today:active:hover,
 .calendar-today:active:focus,
 .calendar-today:selected:hover,
 .calendar-today:selected:focus {
-  background-color: #528edb;
+  font-weight: bold !important;
   color: white;
+  background-color: #ef233c;
+  border: none;
 }
 
 .calendar-day-with-events {
-  color: #4586d8;
+  color: #ef233c;
   font-weight: normal;
   text-decoration: underline;
   background-image: none;
