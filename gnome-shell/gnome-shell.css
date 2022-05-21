@@ -793,11 +793,11 @@ stage {
 .switcher-popup {
   padding: 8px;
   spacing: 16px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(15, 15, 15, 0.3);
 }
 
 .switcher-list {
-  background-color: rgba(10, 10, 10, 0.85) !important;
+  background-color: rgba(10, 10, 10, 0.95) !important;
 }
 
 .switcher-list-item-container {
@@ -848,12 +848,13 @@ stage {
   spacing: 8px;
 }
 
-.ws-switcher-active-up,
-.ws-switcher-active-down {
+.ws-switcher-active-left,
+.ws-switcher-active-right {
   height: 48px;
-  background-color: #4586d8;
+  background-color: #ef233c !important;
   color: rgba(255, 255, 255, 0.85);
   background-size: 32px;
+  border: none;
   border-radius: 12px;
 }
 
@@ -869,7 +870,7 @@ stage {
 .switcher-list,
 .workspace-switcher-container {
   color: rgba(255, 255, 255, 0.9);
-  background-color: #202020;
+  background-color: rgba(15, 15, 15, 0.95);
   border: none;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
   border-radius: 12px;
