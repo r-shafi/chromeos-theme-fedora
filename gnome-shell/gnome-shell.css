@@ -793,6 +793,11 @@ stage {
 .switcher-popup {
   padding: 8px;
   spacing: 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.switcher-list {
+  background-color: rgba(10, 10, 10, 0.85) !important;
 }
 
 .switcher-list-item-container {
@@ -812,7 +817,7 @@ stage {
 }
 
 .switcher-list .item-box:selected {
-  background-color: #4586d8;
+  background-color: rgba(255, 255, 255, 0.05);
   color: rgba(255, 255, 255, 0.85);
 }
 
@@ -823,27 +828,6 @@ stage {
 
 .switcher-list .thumbnail {
   width: 256px;
-}
-
-.switcher-list .separator {
-  width: 1px;
-  background: rgba(255, 255, 255, 0.12);
-}
-
-.switcher-arrow {
-  border-color: rgba(0, 0, 0, 0);
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.switcher-arrow:highlighted {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.input-source-switcher-symbol {
-  font-size: 45px;
-  font-weight: 400;
-  width: 96px;
-  height: 96px;
 }
 
 /* Window Cycler */
